@@ -7,6 +7,7 @@ module.exports = withBundleAnalyzer({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  output: "export",
   // basePath:"/services/content-marketing",
   // assetPrefix:"/services/content-marketing/"
 });
